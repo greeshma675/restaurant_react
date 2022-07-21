@@ -15,7 +15,7 @@ function App() {
       <NavHeader/>
       <Routes>
         <Route path='/' element={<Home/>}/>
-        <Route path='/details' element={<RestaurantDet/>}/>
+        <Route path='/details/:id' element={<RestaurantDet/>}/>
       </Routes>
       <Navfooter/>
     </Router>
